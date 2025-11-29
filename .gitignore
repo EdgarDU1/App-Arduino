@@ -1,0 +1,18 @@
+# --- FLUTTER (Carpeta app) ---
+/app/build/
+/app/.dart_tool/
+/app/.flutter-plugins
+/app/.flutter-plugins-dependencies
+/app/.pub-cache/
+/app/ios/.generated/
+
+# --- ARDUINO (Carpeta firmware) ---
+# Ignorar archivos compilados si se generaron ahí
+*.hex
+*.elf
+*.bin
+
+# --- GENERAL ---
+.DS_Store
+.vscode/
+.idea/
